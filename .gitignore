@@ -1,0 +1,13 @@
+dist
+build
+
+# Node build artifacts
+node_modules
+npm-debug.log
+src/.next
+src/build
+
+# Local development
+*.env
+*.dev
+.DS_Store
