@@ -72,10 +72,6 @@ module.exports = {
 			template: './src/index.html',
 			filename: './index.html'
 		}),
-		new CopyWebpackPlugin([{
-			from: 'src/apache.htaccess',
-			to: path.join(__dirname, 'dist') + '/.[ext]'
-		}]),
 		new webpack.HashedModuleIdsPlugin(), // so that file hashes don't change unexpectedly
 		new MiniCssExtractPlugin({
 			// Options similar to the same options in webpackOptions.output

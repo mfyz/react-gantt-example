@@ -1,0 +1,23 @@
+.gantt-container {
+	height: calc(100vh - 40px - 200px);
+}
+
+.weekend {
+	background: #f4f7f4;
+}
+
+.gantt_task_row {
+	&.gantt_selected {
+		background-color: #fff3a1;
+
+		.weekend {
+			background-color: #E6DB8C;	
+		}
+	}
+}
+
+.gantt_bar_task {
+	&.status_done {
+		background-color: green
+	}
+}
