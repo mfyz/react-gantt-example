@@ -21,7 +21,7 @@
     "branch-name-lint": "^1.0.5",
     "cssnano": "^4.1.10",
     "dhtmlx-gantt": "^6.2.7",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fix-date": "^1.1.6",
     "jquery": "^3.4.1",
     "mini-css-extract-plugin": "^0.7.0",
